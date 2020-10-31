@@ -1,0 +1,6 @@
+framework module Pods_Medly_ios_challenge {
+  umbrella header "Pods-Medly-ios-challenge-umbrella.h"
+
+  export *
+  module * { export * }
+}

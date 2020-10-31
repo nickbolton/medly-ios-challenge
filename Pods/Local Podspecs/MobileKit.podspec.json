@@ -1,0 +1,90 @@
+{
+  "name": "MobileKit",
+  "version": "0.0.1",
+  "summary": "Common Components",
+  "description": "This repo contains code shared between iOS mobile applications.",
+  "homepage": "https://github.com/nickbolton/mobilekit.git",
+  "license": "MIT",
+  "authors": {
+    "Nick Bolton": "nick@pixeol.com"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source": {
+    "git": "https://github.com/nickbolton/mobilekit.git",
+    "branch": "master"
+  },
+  "subspecs": [
+    {
+      "name": "Core",
+      "source_files": "Source/Core/**/*.{swift,m,h}",
+      "dependencies": {
+        "SwiftyBeaver": [
+          "~> 1.4"
+        ],
+        "ReachabilitySwift": [
+          "~> 4.3"
+        ],
+        "FXKeychain": [
+          "~> 1.5"
+        ]
+      },
+      "exclude_files": "**/Info*.plist"
+    },
+    {
+      "name": "Animator",
+      "source_files": "Source/Animator/**/*.{swift,m,h}",
+      "dependencies": {
+        "MobileKit/Core": [
+
+        ]
+      },
+      "exclude_files": "**/Info*.plist"
+    },
+    {
+      "name": "Text",
+      "source_files": "Source/Text/**/*.{swift,m,h}",
+      "dependencies": {
+        "MobileKit/Core": [
+
+        ],
+        "Cache": [
+          "~> 4.1"
+        ]
+      },
+      "exclude_files": "**/Info*.plist"
+    },
+    {
+      "name": "Redux",
+      "source_files": "Source/Redux/**/*.{swift,m,h}",
+      "dependencies": {
+        "MobileKit/Core": [
+
+        ],
+        "RxSwift": [
+          "~> 4.4"
+        ],
+        "ReSwift": [
+          "~> 4.0"
+        ]
+      },
+      "exclude_files": "**/Info*.plist"
+    },
+    {
+      "name": "iOSApplication",
+      "dependencies": {
+        "MobileKit/Core": [
+
+        ],
+        "MobileKit/Animator": [
+
+        ],
+        "MobileKit/Text": [
+
+        ]
+      },
+      "exclude_files": "**/Info*.plist"
+    }
+  ]
+}

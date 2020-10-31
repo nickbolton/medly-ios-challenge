@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A61EC4992DF1DCBEE9CE785 /* Pods_Medly_ios_challenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F45A4118FEC8D0F8CBF7B1F /* Pods_Medly_ios_challenge.framework */; };
+		9200BDF72251474F00BC57E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9200BDF62251474F00BC57E8 /* AppDelegate.swift */; };
+		9200BDFE2251475100BC57E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9200BDFD2251475100BC57E8 /* Assets.xcassets */; };
+		9200BE012251475100BC57E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9200BDFF2251475100BC57E8 /* LaunchScreen.storyboard */; };
+		9200BE102251486C00BC57E8 /* Medly-ios-challengeBootstrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9200BE0E2251486C00BC57E8 /* Medly-ios-challengeBootstrap.swift */; };
+		9200BE112251486C00BC57E8 /* Medly-ios-challengeWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9200BE0F2251486C00BC57E8 /* Medly-ios-challengeWireframe.swift */; };
+		9200BE15225148C600BC57E8 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9200BE13225148C600BC57E8 /* MainViewController.swift */; };
+		9200BE16225148C600BC57E8 /* MainRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9200BE14225148C600BC57E8 /* MainRootView.swift */; };
+		9200BE1822514A1600BC57E8 /* UIColor+Design.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9200BE1722514A1600BC57E8 /* UIColor+Design.swift */; };
+		9200BE1F22514A6400BC57E8 /* Medly-ios-challengeLocker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9200BE1A22514A6400BC57E8 /* Medly-ios-challengeLocker.swift */; };
+		9200BE2022514A6400BC57E8 /* Themes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9200BE1B22514A6400BC57E8 /* Themes.swift */; };
+		9200BE2122514A6400BC57E8 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9200BE1C22514A6400BC57E8 /* Environment.swift */; };
+		9200BE2522514C7F00BC57E8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9200BE2722514C7F00BC57E8 /* Localizable.strings */; };
+		92A175B8248283B100CA6736 /* AppContext+Locker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A175B7248283B100CA6736 /* AppContext+Locker.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6F45A4118FEC8D0F8CBF7B1F /* Pods_Medly_ios_challenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Medly_ios_challenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9200BDF32251474F00BC57E8 /* Medly-ios-challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Medly-ios-challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9200BDF62251474F00BC57E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9200BDFD2251475100BC57E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9200BE002251475100BC57E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9200BE022251475100BC57E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9200BE0E2251486C00BC57E8 /* Medly-ios-challengeBootstrap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Medly-ios-challengeBootstrap.swift"; sourceTree = "<group>"; };
+		9200BE0F2251486C00BC57E8 /* Medly-ios-challengeWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Medly-ios-challengeWireframe.swift"; sourceTree = "<group>"; };
+		9200BE13225148C600BC57E8 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		9200BE14225148C600BC57E8 /* MainRootView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainRootView.swift; sourceTree = "<group>"; };
+		9200BE1722514A1600BC57E8 /* UIColor+Design.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Design.swift"; sourceTree = "<group>"; };
+		9200BE1A22514A6400BC57E8 /* Medly-ios-challengeLocker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Medly-ios-challengeLocker.swift"; sourceTree = "<group>"; };
+		9200BE1B22514A6400BC57E8 /* Themes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Themes.swift; sourceTree = "<group>"; };
+		9200BE1C22514A6400BC57E8 /* Environment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		9200BE2622514C7F00BC57E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		92A175B7248283B100CA6736 /* AppContext+Locker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppContext+Locker.swift"; sourceTree = "<group>"; };
+		A6E73385E56939DD22E158A8 /* Pods-Medly-ios-challenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Medly-ios-challenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-Medly-ios-challenge/Pods-Medly-ios-challenge.release.xcconfig"; sourceTree = "<group>"; };
+		E0A5103E1216F4C3D2DA0F06 /* Pods-Medly-ios-challenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Medly-ios-challenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Medly-ios-challenge/Pods-Medly-ios-challenge.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9200BDF02251474F00BC57E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A61EC4992DF1DCBEE9CE785 /* Pods_Medly_ios_challenge.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4AE120BD990E09D29DD02478 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E0A5103E1216F4C3D2DA0F06 /* Pods-Medly-ios-challenge.debug.xcconfig */,
+				A6E73385E56939DD22E158A8 /* Pods-Medly-ios-challenge.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		91420B05835505B259E440E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F45A4118FEC8D0F8CBF7B1F /* Pods_Medly_ios_challenge.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9200BDEA2251474F00BC57E8 = {
+			isa = PBXGroup;
+			children = (
+				9200BDF52251474F00BC57E8 /* Medly-ios-challenge */,
+				9200BDF42251474F00BC57E8 /* Products */,
+				4AE120BD990E09D29DD02478 /* Pods */,
+				91420B05835505B259E440E8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9200BDF42251474F00BC57E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9200BDF32251474F00BC57E8 /* Medly-ios-challenge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9200BDF52251474F00BC57E8 /* Medly-ios-challenge */ = {
+			isa = PBXGroup;
+			children = (
+				9200BE08225147B700BC57E8 /* main */,
+				9200BE0A225147CA00BC57E8 /* screens */,
+				9200BE0B225147D500BC57E8 /* views */,
+				9200BE09225147BE00BC57E8 /* extensions */,
+				9200BE0C225147DE00BC57E8 /* utils */,
+				9200BE0D225147E900BC57E8 /* i18n */,
+				9200BDFD2251475100BC57E8 /* Assets.xcassets */,
+			);
+			path = "Medly-ios-challenge";
+			sourceTree = "<group>";
+		};
+		9200BE08225147B700BC57E8 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				9200BDF62251474F00BC57E8 /* AppDelegate.swift */,
+				9200BE0E2251486C00BC57E8 /* Medly-ios-challengeBootstrap.swift */,
+				9200BE0F2251486C00BC57E8 /* Medly-ios-challengeWireframe.swift */,
+				9200BDFF2251475100BC57E8 /* LaunchScreen.storyboard */,
+				9200BE022251475100BC57E8 /* Info.plist */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		9200BE09225147BE00BC57E8 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9200BE1722514A1600BC57E8 /* UIColor+Design.swift */,
+				92A175B7248283B100CA6736 /* AppContext+Locker.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		9200BE0A225147CA00BC57E8 /* screens */ = {
+			isa = PBXGroup;
+			children = (
+				9200BE12225148BA00BC57E8 /* main */,
+			);
+			path = screens;
+			sourceTree = "<group>";
+		};
+		9200BE0B225147D500BC57E8 /* views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		9200BE0C225147DE00BC57E8 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				9200BE1C22514A6400BC57E8 /* Environment.swift */,
+				9200BE1A22514A6400BC57E8 /* Medly-ios-challengeLocker.swift */,
+				9200BE1B22514A6400BC57E8 /* Themes.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		9200BE0D225147E900BC57E8 /* i18n */ = {
+			isa = PBXGroup;
+			children = (
+				9200BE2722514C7F00BC57E8 /* Localizable.strings */,
+			);
+			path = i18n;
+			sourceTree = "<group>";
+		};
+		9200BE12225148BA00BC57E8 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				9200BE13225148C600BC57E8 /* MainViewController.swift */,
+				9200BE14225148C600BC57E8 /* MainRootView.swift */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9200BDF22251474F00BC57E8 /* Medly-ios-challenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9200BE052251475100BC57E8 /* Build configuration list for PBXNativeTarget "Medly-ios-challenge" */;
+			buildPhases = (
+				841C8A2E2B46B9C7B251ADF9 /* [CP] Check Pods Manifest.lock */,
+				9200BDEF2251474F00BC57E8 /* Sources */,
+				9200BDF02251474F00BC57E8 /* Frameworks */,
+				9200BDF12251474F00BC57E8 /* Resources */,
+				43EFCE74C6F98E6D562AD411 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Medly-ios-challenge";
+			productName = "Medly-ios-challenge";
+			productReference = 9200BDF32251474F00BC57E8 /* Medly-ios-challenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9200BDEB2251474F00BC57E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Pixelbleed LLC";
+				TargetAttributes = {
+					9200BDF22251474F00BC57E8 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = 9200BDEE2251474F00BC57E8 /* Build configuration list for PBXProject "Medly-ios-challenge" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9200BDEA2251474F00BC57E8;
+			productRefGroup = 9200BDF42251474F00BC57E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9200BDF22251474F00BC57E8 /* Medly-ios-challenge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9200BDF12251474F00BC57E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9200BE012251475100BC57E8 /* LaunchScreen.storyboard in Resources */,
+				9200BE2522514C7F00BC57E8 /* Localizable.strings in Resources */,
+				9200BDFE2251475100BC57E8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		43EFCE74C6F98E6D562AD411 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Medly-ios-challenge/Pods-Medly-ios-challenge-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Medly-ios-challenge/Pods-Medly-ios-challenge-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Medly-ios-challenge/Pods-Medly-ios-challenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		841C8A2E2B46B9C7B251ADF9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Medly-ios-challenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9200BDEF2251474F00BC57E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9200BE1F22514A6400BC57E8 /* Medly-ios-challengeLocker.swift in Sources */,
+				9200BDF72251474F00BC57E8 /* AppDelegate.swift in Sources */,
+				9200BE1822514A1600BC57E8 /* UIColor+Design.swift in Sources */,
+				9200BE2022514A6400BC57E8 /* Themes.swift in Sources */,
+				9200BE102251486C00BC57E8 /* Medly-ios-challengeBootstrap.swift in Sources */,
+				9200BE112251486C00BC57E8 /* Medly-ios-challengeWireframe.swift in Sources */,
+				9200BE16225148C600BC57E8 /* MainRootView.swift in Sources */,
+				9200BE15225148C600BC57E8 /* MainViewController.swift in Sources */,
+				9200BE2122514A6400BC57E8 /* Environment.swift in Sources */,
+				92A175B8248283B100CA6736 /* AppContext+Locker.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9200BDFF2251475100BC57E8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9200BE002251475100BC57E8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		9200BE2722514C7F00BC57E8 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9200BE2622514C7F00BC57E8 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9200BE032251475100BC57E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		9200BE042251475100BC57E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9200BE062251475100BC57E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0A5103E1216F4C3D2DA0F06 /* Pods-Medly-ios-challenge.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5ES339A7SN;
+				INFOPLIST_FILE = "Medly-ios-challenge/main/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pixelbleed.Medly-ios-challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9200BE072251475100BC57E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6E73385E56939DD22E158A8 /* Pods-Medly-ios-challenge.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5ES339A7SN;
+				INFOPLIST_FILE = "Medly-ios-challenge/main/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pixelbleed.Medly-ios-challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9200BDEE2251474F00BC57E8 /* Build configuration list for PBXProject "Medly-ios-challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9200BE032251475100BC57E8 /* Debug */,
+				9200BE042251475100BC57E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9200BE052251475100BC57E8 /* Build configuration list for PBXNativeTarget "Medly-ios-challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9200BE062251475100BC57E8 /* Debug */,
+				9200BE072251475100BC57E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9200BDEB2251474F00BC57E8 /* Project object */;
+}
